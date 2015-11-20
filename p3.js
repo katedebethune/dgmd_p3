@@ -319,7 +319,7 @@
 		var imgsrc = "http://lorempixel.com/300/300/"
 		
 		function cattext(){
-			var l1 = $('#l1').val().toUpperCase();	
+			var l1 = $('#l1').val().toLowerCase();	
 			
 			$('#c2').drawText({
 					fillStyle: '#fff',
