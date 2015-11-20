@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kate de Bethune project 2</title>
+	<link href="p2.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<header>
+		<h1>Judith's Kitchen</h1>
+		<nav>
+			<ul>
+				<li><a href="./index>Home"</a></li>
+				<li><a href="./menu.html">Menu</a></li>
+				<li><a href="./contact.html">Contact</a></li>
+				<li><a href="#">Drawing</a><li>
+			</ul>
+		</nav>
+	</header>
+	<div class="wrapper">
+		<article>	
+			
+			<h1>Drawings</h1>
+			<canvas width="200" height="200" id="c1"></canvas><br>
+	        <button id="b1">Click for shapes</button>
+	        <button id="clear">Clear canvas</button>
+
+	        	<form>
+				<label for="l1">Type something:</label>
+	        	<input type="text" id="l1">
+	        	<br>
+	        	<button id="b2">See your text with a random picture</button>
+	        </form>
+	         <canvas width="200" height="200" id="c2"></canvas>
+	         <br>
+	         <canvas width="400" height="50" id="stave"></canvas>
+	         <form>
+	         <label for="clef">bass or treble?</label>
+	         <input type="radio" class="clef" value="treble" name="clefRadioGroup">Treble
+	         <input type="radio" class="clef" value="bass" name="clefRadioGroup">Bass<br> 
+			</form> 
+
+		</article>
+		<aside>
+		
+		</aside>
+	</div>
+	<footer>
+		<p>Copyright &#169; 2015 Judith's Kitchen All Rights Reserved</p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="jcanvas.js"></script>
+	<script src="p3.js"></script>
+	<!--
+	<script>
+		$('canvas').drawArc({
+  		fillStyle: 'black',
+  		x: 100, y: 100,
+  		radius: 25
+		});
+	</script>
+	-->
+</body>
+</html>

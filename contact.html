@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kate de Bethune project 2</title>
+	<link href="p2.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<h1>Judith's Kitchen</h1>
+		<nav>
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./menu.html">Menu</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="./drawing.html">Drawing</a><li>
+			</ul>
+		</nav>
+	</header>
+	<div class="wrapper">
+		<article>
+			<h2>Join our mailing list!</h2>
+				<form action="#" method="post" id="contact_form">
+					<fieldset>
+						<legend>Contact Information</legend>
+						
+						<label for="name">Name:</label>
+						<input type="text" required name="name" id="name">
+						<!-- removing HTML 5 email, substituting text box for homemade validation js -->
+						<!--
+						<label for="email" >Email:</label>
+						<input type="email" required name="email" id="email"> -->
+						
+						<label for="email" >Email:</label>
+						<input type="text" name="email" id="email"> 
+						<span class="error"></span>
+						
+						<label for="tel">Phone:</label>
+						<input type="tel" name="tel" id="tel"> 
+
+					</fieldset>
+
+					<fieldset>
+						<legend>Send Me Emails About</legend>
+						
+						<input type="checkbox" name="wine_tastings" value="wine_tastings">Wine Tastings<br>
+						<input type="checkbox" name="weekly_specials"
+						value="weekly_specials">Weekly Specials<br>
+						<input type="checkbox" name="cooking classes" value="cooking_classes">Cooking Classes<br>
+						<input type="checkbox" name="all" value="all">Everything!<br>
+
+					</fieldset>
+
+					<fieldset>
+						<legend>Share Your Favorite Links!</legend>
+						<!-- Favorite food blog / html5 URL-->
+						<label for="blog">Favorite food blog: </label>
+						<input type="url" name="food-blog" id="blog">
+						<label for="recipe">Favorite recipe:</label>
+						<input type="url" name="fav-recipe" id="recipe">
+						<!-- Farvorite recipe / html5 URL -->
+						<!-- Comments / text area -->
+					</fieldset>
+					<input type="submit" form="contact_form" value="Submit">
+				</form>
+				<fieldset>
+				<legend>Comments</legend>
+				<textarea name="comments" rows="4" cols="50" id="comments" form="contact_form" placeholder="please leave comments here, we'd love to have your feedback!" ></textarea>
+				</fieldset>
+
+			
+		</article>
+		<aside>
+			<h3>Hours</h3>
+				<p>Monday - Friday: 7AM - 9PM<br>
+				Saturday: 8AM - 9PM<br>
+				Sunday: 8AM - 8PM</p>
+			
+			<h3>Location</h3>
+			
+				<p>1371 Washington Street<br>
+				West Newton, MA 02465</p>
+			
+			
+				<p>Phone: 617-916-9282<br>
+				Fax: 617-916-9285<br>
+				Twitter: <a href="https://twitter.com/judiths_kitchen">@judiths_kitchen</a><br>
+				Facebook: <a href="https://www.facebook.com/pages/Judiths-Kitchen/1618203295121492/">Judith's Kitchen</a></p>
+			
+			
+					<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2948.7112137110316!2d-71.2292368!3d42.348679999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89e382fa19c2c639%3A0x54265bfdad654554!2s1371+Washington+St%2C+West+Newton%2C+MA+02465!3m2!1d42.348679999999995!2d-71.2292368!5e0!3m2!1sen!2sus!4v1439925266133" width="180" height="150"  style="border:0" allowfullscreen></iframe>
+				
+		</aside>
+	</div>
+	<footer>
+		<p>Copyright &#169; 2015 Judith's Kitchen All Rights Reserved</p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="p3.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,200 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: white;
+	padding: 0;
+	margin: 0;
+}
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+	padding: 10px;
+	overflow: auto;
+	margin: 0 auto;
+	padding-top: 140px;
+	padding-bottom: 100px;
+}
+header {
+	background-color: #FDF8DA;
+	color: #FEEBB3;
+	width: 100%;
+	overflow: auto;
+	position: fixed;
+}
+header h1 {
+	/* background-image: url("logo_sm.png"); */
+	/* background-repeat: no-repeat; */
+    /* background-position: center; */
+	color: #4184C7;
+	padding: .75em;
+	width: 30%;
+	float: left;
+}
+img {
+	border: 1px solid black;
+}
+
+.floatleft {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+.floatright {
+	float: right;
+	margin: 0 1em 1em 1em;
+}
+
+.clearfloat {
+	clear: both;
+}
+
+aside {
+	width: 25%;
+	float: left;
+	font-size: .9em;
+	background-color: rgba(65, 132, 199, 0.4);
+	padding: 0 1em 0 1em;
+	border-radius: 25px;
+	margin-top: 1em;
+}
+
+aside ul {
+ 	list-style-type: none;
+}
+
+aside li {
+	text-decoration: none;
+}
+
+article {
+	width: 73%;
+	float: left;
+	margin-right: 2%;
+}
+
+nav {
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 70%;
+	float: left;
+	padding-top: 2.5em;
+} 
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-align: right;
+}
+
+nav li {
+	display: inline;
+	padding-right: 1.3em;
+} 
+
+/* text is sent to the browser at the a leve
+trying to style the text farther up won't work */
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: #4184C7;
+}
+
+nav a:hover {
+	color: #2D2D2D;
+}
+
+/* combining
+nav ul text-align:center,
+nav li inline AND
+nav a display: inline-block
+will center the nav.
+*/
+
+/* add height to nav, but depends on
+what you want to do. */
+
+footer {
+	background-color: #FDF8DA;
+	color: #4184C7;
+	width: 100%;
+	overflow: auto;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	text-align: center;
+	padding: 0 0 1em 0;
+	
+}
+
+/* page-specific styles */
+/* Menu */
+
+.menu-photo-container {
+	display: inline-block;
+    width: 121px;
+    height: 140px;
+    margin-bottom: 10px;
+}
+
+.menu-photo-float {
+	float: left;
+	width: 121px;
+	height: 140px;
+	margin-right: 3px;
+	margin-bottom: 10px;
+}
+
+.menu-list {
+	background-color: rgba(65, 132, 199, 0.4);
+	width: 194px;
+	border-radius: 10px;
+}
+
+fieldset {
+	border-radius: 10px;
+}
+
+.error {
+	color: red;
+}
+
+canvas {
+    border: 1px dotted black;
+}
+
+/*
+div {
+    width: 30%;
+    margin-right: 1%;
+    float: left;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
